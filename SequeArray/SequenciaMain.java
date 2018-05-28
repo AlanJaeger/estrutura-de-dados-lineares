@@ -16,8 +16,6 @@ public class SequenciaMain {
 			System.out.println((String)elementos[inicio].getValor());
 			inicio = (inicio + 1) % elementos.length;
 		}
-		//System.out.println(inicio);
-		//System.out.println(fim);
 
 	}
 }
