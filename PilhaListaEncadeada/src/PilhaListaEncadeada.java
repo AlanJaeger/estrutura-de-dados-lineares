@@ -18,12 +18,14 @@ public class PilhaListaEncadeada implements IPilha{
 		No novo = new No();
 		novo.setElemento(elemento);
 		novo.setProximo(topo);
+		qtd ++;
 		
 		topo = novo;
 	}
 	public Object pop() {
 		Object elemento = topo.getElemento();
 		topo = topo.getProximo();
+		qtd --;
 		return elemento;
 	}
 	public boolean isEmpty() {

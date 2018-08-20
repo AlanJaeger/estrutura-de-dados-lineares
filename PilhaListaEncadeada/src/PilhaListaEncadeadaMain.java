@@ -1,5 +1,5 @@
 
-public class Conversor {
+public class PilhaListaEncadeadaMain {
 
 	public static void main(String args[]) throws EPilhaVazia {
 		PilhaListaEncadeada pilha = new PilhaListaEncadeada();
